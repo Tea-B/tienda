@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#galeria {
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagen {
+    margin: 0px 20px;
+    width: 350px;
+    height: 670px;
+}
+
+img {
+    width: 100%;
+}
+
+p, h1, .center, h4 {
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.menu {
+    position: fixed;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#sex {
+    font-size: 15px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgba(223, 157, 37, 0.945);
+}
+
+.menu-l {
+    margin-top: 10px;
+}
+
+#email {
+    border: 0px solid;
+    border-bottom: 1px solid;
+    width: 700px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+#min {
+    font-weight: 400;
+    margin: 0px;
+}
+
+#margin {
+    margin: 0px;
+}
+
+#newsletter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);;
+}
+
+#contacto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);;
+}
+
+.lista {
+    display: inline;
+}
+
+#div {
+    width: calc(100% - 100px);
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);;
+}
+
+.ul {
+    margin-top: 30px;
+}
+
+ .right {
+    position: absolute;
+    justify-content: flex-end;
+ }
+
+ .abs {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+ }
+
+ .search {
+    display: inline-block;
+ }
+
+ .img-s {
+    width: 13px;
+    margin: 0px 5px;
+ }
+
+ .ib {
+    position: absolute;
+    display: inline;
+    right: 30px;
+    font-size: 11px;
+ }
+
+ .space {
+    margin-right: 10px;
+ }
